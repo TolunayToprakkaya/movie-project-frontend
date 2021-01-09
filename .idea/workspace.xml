@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aba41d1-f05d-4958-8c91-5980d1952072" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/actions/updateMovieAction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/updateMovieReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/moviesAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/moviesAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/newMovie/NewMovieForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/newMovie/NewMovieForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/newMovie/NewMoviePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/newMovie/NewMoviePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/moviesReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/moviesReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +46,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -74,7 +81,7 @@
       <workItem from="1610017706806" duration="2848000" />
       <workItem from="1610023297603" duration="7528000" />
       <workItem from="1610091483814" duration="29369000" />
-      <workItem from="1610191496802" duration="13057000" />
+      <workItem from="1610191496802" duration="17393000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1610216061145</created>
@@ -83,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610216061145</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1610216476165</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610216476165</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,5 +106,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

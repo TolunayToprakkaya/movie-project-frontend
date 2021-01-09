@@ -37,7 +37,7 @@ export default (state = initialState, action) => {
             return {
                 ...state,
                 fetching: false,
-                movieList: state.movieList.filter(item => item.movieId !== action.payload.id)
+                movieList: state.movieList.filter(item => item.movieId !== action.payload.movieId)
             }
         case DELETE_MOVIE_REJECTED:
             return {
