@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9aba41d1-f05d-4958-8c91-5980d1952072" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mWQAIPaPUKTytFE4ZiCgrzuuCJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Yeni klasör (2)/react-redux-egitim-seti-master/react-redux-movie-app" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tolunay\Desktop\movie-frontend\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tolunay\Desktop\movie-frontend\src\components\pages\movies" />
+      <recent name="C:\Users\Tolunay\Desktop\movie-frontend\src\components\pages\newMovie" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9aba41d1-f05d-4958-8c91-5980d1952072" name="Default Changelist" comment="" />
+      <created>1609606721878</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609606721878</updated>
+      <workItem from="1609606724209" duration="12725000" />
+      <workItem from="1609627039695" duration="644000" />
+      <workItem from="1609679402703" duration="19397000" />
+      <workItem from="1609709379360" duration="4115000" />
+      <workItem from="1609716105489" duration="2788000" />
+      <workItem from="1609744989287" duration="1234000" />
+      <workItem from="1609749201581" duration="100000" />
+      <workItem from="1609749449623" duration="17733000" />
+      <workItem from="1609846970897" duration="11065000" />
+      <workItem from="1609865521702" duration="940000" />
+      <workItem from="1609872067591" duration="3720000" />
+      <workItem from="1609883805715" duration="1036000" />
+      <workItem from="1610017706806" duration="2848000" />
+      <workItem from="1610023297603" duration="7528000" />
+      <workItem from="1610091483814" duration="29369000" />
+      <workItem from="1610191496802" duration="12363000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
