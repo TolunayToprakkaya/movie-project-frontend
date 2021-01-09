@@ -100,16 +100,6 @@ const mapStateToProps = (state, props) => {
         movie: state.movies.movieList.find(item => item.movieId === props.match.params.movieId)
     }
 };
-
-
-/*
-const mapStateToProps = ({newMovie, movies}, props) => {
-    return {
-        newMovie,
-        movie: movies.movieList.find(item => item.movieId === props.match.params.movieId)
-    }
-};
-*/
 //Kullanılan Actionlar Yazılır
 const mapDispatchToProps = {
     newMovieCreate,
