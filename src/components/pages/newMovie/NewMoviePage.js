@@ -17,7 +17,11 @@ class NewMoviePage extends Component {
     render() {
         return (
             <div>
-                <h2>New Movie</h2>
+                <h2>
+                    {
+                        this.props.match.params.movieId ? "Update Movie" : "New Movie"
+                    }
+                </h2>
                 <NewMovieForm
                     newMovie={this.props.newMovie}
                     movie={this.props.movie}

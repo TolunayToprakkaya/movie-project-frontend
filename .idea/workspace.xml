@@ -2,14 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aba41d1-f05d-4958-8c91-5980d1952072" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/actions/updateMovieAction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/updateMovieReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/cast/castsAction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/cast/newCastAction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/casts/CastCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/casts/CastList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/casts/CastsPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/casts/css/CastCardStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/newCast/NewCastForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/newCast/NewCastPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/cast/castsReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/cast/newCastReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/moviesAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/moviesAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/newMovie/NewMovieForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/newMovie/NewMovieForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/newMovie/NewMoviePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/newMovie/NewMoviePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/moviesReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/moviesReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/rootReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +55,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -54,6 +63,8 @@
       <recent name="C:\Users\Tolunay\Desktop\movie-frontend\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tolunay\Desktop\movie-frontend\src\reducers\cast" />
+      <recent name="C:\Users\Tolunay\Desktop\movie-frontend\src\actions\cast" />
       <recent name="C:\Users\Tolunay\Desktop\movie-frontend\src\components\pages\movies" />
       <recent name="C:\Users\Tolunay\Desktop\movie-frontend\src\components\pages\newMovie" />
     </key>
@@ -81,7 +92,20 @@
       <workItem from="1610017706806" duration="2848000" />
       <workItem from="1610023297603" duration="7528000" />
       <workItem from="1610091483814" duration="29369000" />
-      <workItem from="1610191496802" duration="17393000" />
+      <workItem from="1610191496802" duration="17975000" />
+      <workItem from="1610283844539" duration="1348000" />
+      <workItem from="1610406790880" duration="1236000" />
+      <workItem from="1610468737045" duration="811000" />
+      <workItem from="1610657563947" duration="3000" />
+      <workItem from="1610915568409" duration="2407000" />
+      <workItem from="1611009704977" duration="65000" />
+      <workItem from="1611009829585" duration="331000" />
+      <workItem from="1611014144139" duration="136000" />
+      <workItem from="1611326470874" duration="13200000" />
+      <workItem from="1611403101581" duration="7799000" />
+      <workItem from="1611565500549" duration="10345000" />
+      <workItem from="1612546084230" duration="7466000" />
+      <workItem from="1612560901904" duration="946000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1610216061145</created>
@@ -97,11 +121,30 @@
       <option name="project" value="LOCAL" />
       <updated>1610216476165</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial commit">
+      <created>1610224485973</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610224485973</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />

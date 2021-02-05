@@ -41,6 +41,12 @@ class Header extends Component {
                             <Menu.Item as={NavLink} to={"/movie/new"} exact={true}>
                                 New Movie
                             </Menu.Item>
+                            <Menu.Item as={NavLink} to={"/casts"} exact={true}>
+                                Casts
+                            </Menu.Item>
+                            <Menu.Item as={NavLink} to={"/cast/new"} exact={true}>
+                                New Cast
+                            </Menu.Item>
                         </Container>
                     </Menu>
                 </Visibility>
